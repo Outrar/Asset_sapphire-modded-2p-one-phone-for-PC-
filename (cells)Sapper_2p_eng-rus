@@ -5,5 +5,277 @@
 
 
 
+friend_buttle = -1 #ps code shot up and read this after you undestand this string determination
+from random import randint #deflaut This helping with randome - randint(1,9) is 1-9 and nine
+random_cell1 = randint(1,10)#citate not working but seem like serios code
+random_cell2 = randint(1,10)
+random_cell3 = randint(1,10)
+random_cell4 = randint(1,10)
+random_cell5 = randint(1,10)
+random_cell6 = randint(1,10)
+random_cell7 = randint(1,10)
+random_cell8 = randint(1,10)
+random_cell9 = randint(1,10)
+cells = None #citate i say this thing so "like zero but better"       
+cells_x = [cells]#ps just shapes so this cirlcle like slots
+cells_y = str(cells_x).lower()
+cells_z = ['y','ye','ys','l','f','fl','lf','д','а','да','ад']#code ps all details in да - yes
+print('Добро пожаловать ;)')
+while 1:
+    cell = input('Клетки 1, 2, 3, 4, 5, 6, 7, 8, 9 какую хотите нажать? ')#sign cells 1-9 your choise to press?
+    if cell == '1':
+         if random_cell1 == 1 or 2:
+            print("Бомба!")#sign The bomb
+            break
+    if cell == '2':
+        if random_cell1 == 1 or 2:
+            print("Щас рванёт!")#citate..is ticking down
+            break
+    if cell == '3':
+        if random_cell1 == 1 or 2:
+            print("*Взрыв*, ты нашёл бомбу!")#sign *EXPLORE* you seek bomb
+            break
+    if cell == '4':
+        if random_cell1 == 1 or 2:
+            print("The bomb is ticking down!")#citate CS 
+            break
+    if cell == '5':
+        if random_cell1 == 1 or 2:
+            print("The bomb!")#sign(ps(citate)) you see? if yes i not must print this here#sign the bomb
+            break
+    if cell == '6':
+        if random_cell1 == 1 or 2:
+            print("Бомбочка!")#sign BOOMBIE LIKE
+            break
+    if cell == '7':
+        if random_cell1 == 1 or 2:
+            print("О НЕТ, ЭТО ЖЕ БОМБА!")#sign OH NO THIS THE BOMB
+            break
+    if cell == '8':
+        if random_cell1 == 1 or 2:
+            print("ЭТА ИГРА БОМБА!")#sign THIS GAME IS BOMB#ps but it True ps
+            break
+        print('Начать "Бесконечную игру"?')#sign start Endless game?
+        cells = input(':🏵️|🏵️|🏵️: :❤️:YES        <--: ◎ :-->           NO :🖤 ') #citate undertale and deltarune choice illusion
+        cells_x = [cells] #cells or slots
+        cells_y = str(cells_x).lower()
+        cells_z = ['y','ye','ys','l','f','fl','lf','д','а','да','ад']
+
+buttle = None   #citate like zero but better - because not a number (not  integer or float)   
+abyss = '○◌'#ps shape - and hiding abyss cell
+full = '↟Œ'
+bomb = '💥ϐ' #translate ϐ - в  взрыв - explosion
+card = '▮◊'
+friend_buttle = -1
+def button_battle():#ps buttle
+    friend_buttle = -1
+    print('Start Buttle')
+    buttle = "bot"#code ps buttle is with bot buttle?
+    if friend_buttle < 0:#ps buttle is with friend buttle also start both amperts?
+        buttle = 'friend'#ps if you not play this more then 1
+        friend_buttle += 1
+    if buttle == 'friend':#ps your play friend buttle isn't it?
+        print('Ход Друга (1p)') #sign friend turn
+        username_1p = input('Имя (Enter для проуска→→↠)')#sign name enter for skip
+        print('Ход Ваш (2p admin)')#sign Your turn (2p admin)
+        print('Ваш, Друг назвался как ', '"', username_1p ,'"')#sign Youre friend named himself "name"
+        username_2p = input('admin) Имя (Enter для проуска→→↠)') #sign admin name enter for skip
+        print('Начнём!')#sign Let's start!
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()#ps shifts for  hiding opponent actions
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
+        print('НА АРЕНЕ БЬЮТСЯ',username_1p,'и',username_2p)#sign on arena fighting p1 and p2
+        print('Ход',username_1p)#ps Your friend turn 1
+        print('Ход',username_2p)#ps admin (you) turn 1
+
+        
+
+
+if cells_y == 'yes' or 'да' or cells_z in cells_y: #ps comfirm yes or no deltarune and undertale be like
+    print('start!')
+    print('Перед тобой 8 клеток расположенных так:') #sign front you eight cells standing be like:
+    print(abyss,abyss,abyss,abyss)#ps here noting
+    print(abyss,abyss,abyss,abyss)#ps but nobody come
+    print('Расположи одну бомбу, один выйгрыш, и 3 карты на поле путём /ряд номер тип (типы бомба фулл(выйгрыш) и карта)')#*sign choice area for 1 bomb, 1 win , and 3 cards of this method:
+    #*/row number in row type (bomb, full(win), card.)
+    print('Чтобы выйграть твой друг должен вытащить 3 карты или попасть на фулл , если собираешь все путые (3) ничья, если попадаешь на бомбу проиграл')#To win your friend must draw 3 cards or get a full, if you collect all the good ones (3) it's a draw, if you get a bomb you lose
+
+    print("В первой партии сейчас расстовляешь, затем ты играет друг но, НО потом будешь играть с ботом ")#Now in this game make puzzle admin(you) and after your friend(2p)
+    print('Давайка сразу сыграем с ботом но, НО ты знаешь расположение всех клеток:')#go how play with bot but you know area for evry card
+    print(abyss,bomb,abyss,card)#ps cards seem like that
+    print(full,abyss,card,card)#ps i would like make custom cards quantity
+    print('Видишь как работает? Теперь играй с другом')#sign you see how this working? Now play with friend
+    button_battle()
+
+print('You lose!')#ps game over bruh..
+
+
+#ps ❤️🧡💛💚💙💜🤎🖤🤍your unlegal color "cheat sheet hint"
+
+
+#ps wow how many strings
+
+#ps(citate) in this code more of citates
+
+
+
+
+
+
+
+
+
+
+
+
+ENGLISH   
+
+friend_buttle = -1 #ps code shot up and read this after you undestand this string determination
+from random import randint #deflaut This helping with randome - randint(1,9) is 1-9 and nine
+random_cell1 = randint(1,10)#citate not working but seem like serios code
+random_cell2 = randint(1,10)
+random_cell3 = randint(1,10)
+random_cell4 = randint(1,10)
+random_cell5 = randint(1,10)
+random_cell6 = randint(1,10)
+random_cell7 = randint(1,10)
+random_cell8 = randint(1,10)
+random_cell9 = randint(1,10)
+cells = None #citate i say this thing so "like zero but better"       
+cells_x = [cells]#ps just shapes so this cirlcle like slots
+cells_y = str(cells_x).lower()
+cells_z = ['y','ye','ys','l','f','fl','lf','d','a','yes','hell']#code ps all details in yes - yes
+print('Welcome ;)')
+while 1:
+    cell = input('Cells 1, 2, 3, 4, 5, 6, 7, 8, 9 which one do you want to press? ')#sign cells 1-9 your choise to press?
+    if cell == '1':
+if random_cell1 == 1 or 2:
+print("Bomb!")#sign The bomb
+            break
+    if cell == '2':
+if random_cell1 == 1 or 2:
+print("It's going to explode!")#citate..is ticking down
+            break
+    if cell == '3':
+if random_cell1 == 1 or 2:
+print("*Explosion*, you found the bomb!")#sign *EXPLORE* you seek bomb
+            break
+    if cell == '4':
+        if random_cell1 == 1 or 2:
+            print("The bomb is ticking down!")#citate CS 
+            break
+    if cell == '5':
+        if random_cell1 == 1 or 2:
+            print("The bomb!")#sign(ps(citate)) you see? if yes i not must print this here#sign the bomb
+            break
+    if cell == '6':
+if random_cell1 == 1 or 2:
+print("Bomb!")#sign BOOMBIE LIKE
+            break
+    if cell == '7':
+        if random_cell1 == 1 or 2:
+print("OH NO, IT'S A BOMB!")#sign OH NO THIS IS THE BOMB
+            break
+    if cell == '8':
+if random_cell1 == 1 or 2:
+print("THIS GAME IS A BOMB!")#sign THIS GAME IS A BOMB#ps but it is True ps
+            break
+        print('Start the "Endless Game"?')#sign start Endless game?
+        cells = input(':🏵️|🏵️|🏵️: :❤️:YES        <--: ◎ :-->           NO :🖤 ') #citate undertale and deltarune choice illusion
+        cells_x = [cells] #cells or slots
+        cells_y = str(cells_x).lower()
+        cells_z = ['y','ye','ys','l','f','fl','lf','d','a','yes','hell']
+
+buttle = None   #citate like zero but better - because not a number (not  integer or float)   
+abyss = '○◌'#ps shape - and hiding abyss cell
+full = '↟Œ'
+bomb = '💥ϐ' #translate ϐ - into an explosion - explosion
+card = '▮◊'
+friend_buttle = -1
+def button_battle():#ps buttle
+    friend_buttle = -1
+    print('Start Buttle')
+    buttle = "bot"#code ps buttle is with bot buttle?
+    if friend_buttle < 0:#ps buttle is with friend buttle also start both amperts?
+        buttle = 'friend'#ps if you not play this more then 1
+        friend_buttle += 1
+    if buttle == 'friend':#ps your play friend buttle isn't it?
+        print('A Friend's Move (1p)') #sign friend turn
+        username_1p = input('Name (Enter to skip→→↠)')#sign name enter for skip
+        print('Your move (2p admin)')#sign Your turn (2p admin)
+        print('Your Friend gave his name as ', '"', username_1p ,'"')#sign Youre friend named himself "name"
+        username_2p = input('admin) Name (Enter to skip→→↠)') #sign admin name enter for skip
+        print('Let's get started!')#sign Let's start!
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()
+        print()#ps shifts for  hiding opponent actions
+        print()
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print() print() print()
+print()
+print('THEY ARE FIGHTING IN THE ARENA',username_1p,'and',username_2p)#sign on arena fighting p1 and p2
+        print('Move',username_1p)#ps Your friend turn 1
+        print('Move',username_2p)#ps admin (you) turn 1
+
+        
+
+
+if cells_y == 'yes' or 'yes' or cells_z in cells_y: #ps comfirm yes or no deltarune and undertale be like
+print('start!')
+    print('There are 8 cells in front of you, arranged like this:') #sign front you eight cells standing be like:
+    print(abyss,abyss,abyss,abyss)#ps here noting
+    print(abyss,abyss,abyss,abyss)#ps but nobody come
+    print('Place one bomb, one win, and 3 cards on the field by way/row number type (types bomb full(win) and card)')#*sign choice area for 1 bomb, 1 win , and 3 cards of this method:
+    #*/row number in row type (bomb, full(win), card.)
+    print('To win, your friend must draw 3 cards or get full if you collect all the putts (3) draw if you get a bomb and lose')#To win your friend must draw 3 cards or get a full, if you collect all the good ones (3) it's a draw, if you get a bomb you lose
+
+    print ("You're playing the first game now, then you're playing a friend, BUT then you're going to play with a bot")#Now in this game make puzzle admin(you) and after your friend(2p)
+print('Let's play with the bot right away, BUT you know the location of all the cells:')#go how play with bot but you know area for evry card
+    print(abyss,bomb,abyss,card)#ps cards seem like that
+    print(full,abyss,card,card)#ps i would like make custom cards quantity
+    print('Do you see how it works? Now play with your friend')#sign you see how this working? Now play with friend
+    button_battle()
+
+print('You lose!')#ps game over bruh..
+
+
+#ps ❤️🧡💛💚💙💜🤎🖤🤍your unlegal color "cheat sheet hint"
+
+
+#ps wow how many strings
+
+#ps(citate) in this code more of citates
+
+
+#Button battle my work at 2 weekend
+
+
+
+
+
 
 
