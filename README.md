@@ -20,7 +20,7 @@ in this game-step loose impossible but you can collect coll explosions and you s
 8cell - also this is your modification 
 9cell - ❤️Yes start game? 💙No
 #if you use my code or modification let me know 
-this my email address max3225@mail.ru ←contact me in a mouth 
+this my email address max3225@mail.ru ←contact me in a 3-4 weekends
 sorry for less youre time and Goodnight or Chao 
 
 
