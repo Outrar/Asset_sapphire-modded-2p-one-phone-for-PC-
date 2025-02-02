@@ -7,3 +7,29 @@ This is a very specific project.
 I will briefly outline the rules: there are 4 suits: spades, diamonds, clubs and hearts
 but besides them there is a diamond card with an effect and an amber card
 but in spite of this, cards of the same suit and the same number can be repeated (and not only in the hand)
+
+
+BRILLIANT = '.|D◊|.'
+ATACK = '. |↯| .'
+DEFEND = '.|DEF▼|.'
+AMBER = '.|A◊A|.'
+abyss = '.i○◌i.'
+full = '.| ↟◊▧ |.'
+bomb = '. | 💥ϐ | .'
+card = '. |▮◊| .'
+
+def Amber_card_referens():
+    print(ATACK,abyss,abyss,full,full,bomb,abyss,)
+    print()
+    print(abyss,full,abyss,bomb,full,abyss,abyss,)
+    print()
+    print(full,abyss,abyss,full,BRILLIANT,bomb,abyss,)
+    print()
+    print(abyss,full,abyss,bomb,full,abyss,abyss,)
+    print()
+    print(abyss,AMBER,abyss,full,full,bomb,DEFEND)
+    print()
+    print(full,abyss,abyss,full,full,bomb,abyss)
+    print()
+
+#this module for amber card reference - test func
